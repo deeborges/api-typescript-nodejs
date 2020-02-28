@@ -1,7 +1,7 @@
 import {Entity, Column} from "typeorm";
 import { BaseEntity } from "./BaseEntity";
 
-@Entity({ name: 'usuarios' }) // estou dizendo que essa minha classe é uma entidade
+@Entity({ name: 'usuarios' })
 export class User extends BaseEntity {
 
     @Column({ type: 'varchar', length: 100 })
