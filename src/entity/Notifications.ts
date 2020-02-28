@@ -42,7 +42,7 @@ export abstract class Notifications {
   isEmail(value, message: string) {
 
   }
-  // os parametros depois do :  , significam o tipo que a minha funcao vai retornar.
+
   get allNotifications(): Array<{ message: string }> {
     return this.notifications;
   }
